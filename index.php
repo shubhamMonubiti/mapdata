@@ -20,7 +20,7 @@
 
 $i = 0;
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && $i<3) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && $i<10) {
     $q = $_POST['query'];
 
 
